@@ -32,3 +32,7 @@ const membriTeam = [
 ];
 
 console.log(membriTeam);
+
+for (let i = 0; i < membriTeam.length; i++) {
+    console.log(`Nome: ${membriTeam[i].nome}, Ruolo: ${membriTeam[i].ruolo}`);
+};
