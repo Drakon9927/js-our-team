@@ -39,5 +39,9 @@ for (let i = 0; i < membriTeam.length; i++) {
 
 // Funzione per restituire i membri su html (su function.js)
 
+const teamContainer = document.getElementById('teamcontainer');
 
+membriTeam.forEach(membro => {
+    teamContainer.innerHTML += creaMembroHtml(membro);
+});
 
