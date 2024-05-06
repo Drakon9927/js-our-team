@@ -36,3 +36,8 @@ console.log(membriTeam);
 for (let i = 0; i < membriTeam.length; i++) {
     console.log(`Nome: ${membriTeam[i].nome}, Ruolo: ${membriTeam[i].ruolo}`);
 };
+
+// Funzione per restituire i membri su html (su function.js)
+
+
+
